@@ -7,5 +7,3 @@ Or create all on heap and reference them only via pointers to their respective t
 Reduce the Map-Tiles to structs?
 Are classes fast enough?
 Is an Array faster?
-
-test
