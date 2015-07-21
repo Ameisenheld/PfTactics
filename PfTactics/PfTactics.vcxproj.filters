@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Property">
+      <UniqueIdentifier>{cbe75584-3c7c-4b6b-8f01-c8528a027bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Property">
+      <UniqueIdentifier>{17b7a08d-6bd8-4e07-a0af-4bf967df8cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Item">
+      <UniqueIdentifier>{26658c36-d76a-4d42-9a56-22d3f2d7c2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\MapObject">
+      <UniqueIdentifier>{c07c92c3-2e96-4817-9394-4af5d32e74b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\MapObject">
+      <UniqueIdentifier>{9bc21fe6-8a03-44fe-b419-edde3a5e24e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Item">
+      <UniqueIdentifier>{35e8b9ca-603b-48c1-97d6-8f1d9c22dd26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Map.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Headerdateien\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Headerdateien\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantment.h">
+      <Filter>Headerdateien\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Wearable.h">
+      <Filter>Headerdateien\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Headerdateien\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Furniture.h">
+      <Filter>Headerdateien\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Headerdateien\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop.h">
+      <Filter>Headerdateien\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Headerdateien\MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Feat.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Sizes.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="StatBonus.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Map.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Dice.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Quelldateien\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Quelldateien\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability.cpp">
+      <Filter>Quelldateien\Property</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
