@@ -87,6 +87,9 @@
     <ClInclude Include="Ability.h">
       <Filter>Headerdateien\Property</Filter>
     </ClInclude>
+    <ClInclude Include="MapTile.h">
+      <Filter>Headerdateien\MapObject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Map.cpp">
@@ -107,5 +110,11 @@
     <ClCompile Include="Ability.cpp">
       <Filter>Quelldateien\Property</Filter>
     </ClCompile>
+    <ClCompile Include="MapTile.cpp">
+      <Filter>Quelldateien\MapObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="OpenQuestions.txt" />
   </ItemGroup>
 </Project>

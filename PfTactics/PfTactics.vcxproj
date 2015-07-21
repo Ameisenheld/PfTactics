@@ -68,6 +68,7 @@
     <ClCompile Include="Dice.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapTile.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="Skills.cpp" />
   </ItemGroup>
@@ -80,6 +81,7 @@
     <ClInclude Include="Furniture.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="MapTile.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Prop.h" />
     <ClInclude Include="Sizes.h" />
@@ -90,6 +92,9 @@
     <ClInclude Include="Weapon.h" />
     <ClInclude Include="Enchantment.h" />
     <ClInclude Include="Wearable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="OpenQuestions.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

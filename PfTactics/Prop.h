@@ -27,7 +27,7 @@ public:
 	long ID;
 	std::vector<StatBonus> activeEffects;
 private:
-	Prop();		//Don't create this... PLEASE
+	//Prop();		//Don't create this... PLEASE
 };
 
 #endif

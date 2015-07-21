@@ -7,9 +7,10 @@
 #include "Hero.h"
 #include "Monster.h"
 #include "Furniture.h"
+#include "MapTile.h"
 
 class Map{
-
+	std::vector<std::vector<MapTile>> map;
 };
 
 #endif
