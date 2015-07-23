@@ -36,10 +36,10 @@ void Ability::changeAbility(Attribute atr, short mod){
 }
 
 Ability::~Ability(){
-	delete strMod;
-	delete konMod;
-	delete dexMod;
-	delete intMod;
-	delete wisMod;
-	delete chaMod;
+	//delete strMod;
+	//delete konMod;
+	//delete dexMod;
+	//delete intMod;
+	//delete wisMod;
+	//delete chaMod;
 }

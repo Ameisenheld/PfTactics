@@ -6,8 +6,10 @@
 
 #include "Unit.h"
 
-class Monster : Unit{
+class Monster : public Unit{
 public:
+	Monster();
+	Monster(Ability*);
 	short CR;
 	short HitDice;
 };

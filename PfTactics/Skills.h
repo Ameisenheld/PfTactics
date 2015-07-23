@@ -5,10 +5,11 @@
 
 #include "Class.h"
 #include "Skill.h"
+#include "Ability.h"
 
 class Skills{
 public:
-	Skills(short*, short*, short*, short*, short*, short*);
+	Skills(Ability*);
 	Skill* acrobatics;
 	Skill* appraise;
 	Skill* bluff;

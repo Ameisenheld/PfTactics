@@ -6,7 +6,7 @@
 
 #include "Prop.h"
 
-class Furniture : Prop{
+class Furniture : public Prop{
 public:
 	int xDimension;		//in contrast to other sources, these are in feet
 	int yDimension;

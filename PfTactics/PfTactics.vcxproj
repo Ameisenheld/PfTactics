@@ -66,11 +66,16 @@
   <ItemGroup>
     <ClCompile Include="Ability.cpp" />
     <ClCompile Include="Dice.cpp" />
+    <ClCompile Include="GraphicView.cpp" />
+    <ClCompile Include="Hero.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="MapTile.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Prop.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="Skills.cpp" />
+    <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ability.h" />
@@ -79,6 +84,7 @@
     <ClInclude Include="Equipment.h" />
     <ClInclude Include="Feat.h" />
     <ClInclude Include="Furniture.h" />
+    <ClInclude Include="GraphicView.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MapTile.h" />

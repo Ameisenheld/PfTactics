@@ -12,6 +12,7 @@
 
 class Prop{
 public:
+	Prop();
 	short AC;
 	short touchAC;
 	short flatAC;
@@ -26,6 +27,7 @@ public:
 	std::string name;
 	long ID;
 	std::vector<StatBonus> activeEffects;
+	void updateStats();
 private:
 	//Prop();		//Don't create this... PLEASE
 };

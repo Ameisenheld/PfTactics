@@ -1,41 +1,41 @@
 #include "Skills.h"
 
-Skills::Skills(short* str, short* dex, short* con, short* in, short* wis, short* cha){
-	acrobatics = new Skill(dex, false);
-	appraise = new Skill(in, false);
-	bluff = new Skill(cha, false);
-	climb = new Skill(str, false);
-	craft = new Skill(in, false);
-	diplomacy = new Skill(cha, false);
-	disableDevice = new Skill(dex, true);
-	disguise = new Skill(cha, false);
-	escapeArtist = new Skill(dex, false);
-	fly = new Skill(dex, false);
-	handleAnimal = new Skill(cha, true);
-	heal = new Skill(wis, false);
-	intimidate = new Skill(cha, false);
-	knowledgeArcana = new Skill(in, true);
-	knowledgeDungeoneering = new Skill(in, true);
-	knowledgeEngineering = new Skill(in, true);
-	knowledgeGeography = new Skill(in, true);
-	knowledgeHistory = new Skill(in, true);
-	knowledgeLocal = new Skill(in, true);
-	knowledgeNature = new Skill(in, true);
-	knowledgeNobility = new Skill(in, true);
-	knowledgePlanes = new Skill(in, true);
-	knowledgeReligion = new Skill(in, true);
-	linguistics = new Skill(in, true);
-	perception = new Skill(wis, false);
-	perform = new Skill(cha, false);
-	profession = new Skill(wis, true);
-	ride = new Skill(dex, false);
-	senseMotive = new Skill(wis, false);
-	sleightOfHand = new Skill(dex, true);
-	spellcraft = new Skill(in, true);
-	stealth = new Skill(dex, false);
-	survival = new Skill(wis, false);
-	swim = new Skill(str, false);
-	useMagicDevice = new Skill(cha, true);
+Skills::Skills(Ability* ability){
+	acrobatics = new Skill(ability->dexMod, false);
+	appraise = new Skill(ability->intMod, false);
+	bluff = new Skill(ability->chaMod, false);
+	climb = new Skill(ability->strMod, false);
+	craft = new Skill(ability->intMod, false);
+	diplomacy = new Skill(ability->chaMod, false);
+	disableDevice = new Skill(ability->dexMod, true);
+	disguise = new Skill(ability->chaMod, false);
+	escapeArtist = new Skill(ability->dexMod, false);
+	fly = new Skill(ability->dexMod, false);
+	handleAnimal = new Skill(ability->chaMod, true);
+	heal = new Skill(ability->wisMod, false);
+	intimidate = new Skill(ability->chaMod, false);
+	knowledgeArcana = new Skill(ability->intMod, true);
+	knowledgeDungeoneering = new Skill(ability->intMod, true);
+	knowledgeEngineering = new Skill(ability->intMod, true);
+	knowledgeGeography = new Skill(ability->intMod, true);
+	knowledgeHistory = new Skill(ability->intMod, true);
+	knowledgeLocal = new Skill(ability->intMod, true);
+	knowledgeNature = new Skill(ability->intMod, true);
+	knowledgeNobility = new Skill(ability->intMod, true);
+	knowledgePlanes = new Skill(ability->intMod, true);
+	knowledgeReligion = new Skill(ability->intMod, true);
+	linguistics = new Skill(ability->intMod, true);
+	perception = new Skill(ability->wisMod, false);
+	perform = new Skill(ability->chaMod, false);
+	profession = new Skill(ability->wisMod, true);
+	ride = new Skill(ability->dexMod, false);
+	senseMotive = new Skill(ability->wisMod, false);
+	sleightOfHand = new Skill(ability->dexMod, true);
+	spellcraft = new Skill(ability->intMod, true);
+	stealth = new Skill(ability->dexMod, false);
+	survival = new Skill(ability->wisMod, false);
+	swim = new Skill(ability->strMod, false);
+	useMagicDevice = new Skill(ability->chaMod, true);
 }
 
 void Skills::setClassSkills(ClassName name){

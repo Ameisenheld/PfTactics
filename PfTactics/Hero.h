@@ -7,10 +7,13 @@
 #include "Unit.h"
 #include "Class.h"
 
-class Hero : Unit{
+class Hero : public Unit{
 public:
+	Hero();
+	Hero(Ability*);
 	bool playerControlled;
 	std::vector<Class> characterClasses;	//a character may have any number of classLevels
+	void updateStats();
 };
 
 

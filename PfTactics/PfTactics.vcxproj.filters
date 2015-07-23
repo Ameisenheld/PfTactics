@@ -90,6 +90,9 @@
     <ClInclude Include="MapTile.h">
       <Filter>Headerdateien\MapObject</Filter>
     </ClInclude>
+    <ClInclude Include="GraphicView.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Map.cpp">
@@ -111,6 +114,21 @@
       <Filter>Quelldateien\Property</Filter>
     </ClCompile>
     <ClCompile Include="MapTile.cpp">
+      <Filter>Quelldateien\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicView.cpp">
+      <Filter>Quelldateien\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Quelldateien\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Quelldateien\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop.cpp">
+      <Filter>Quelldateien\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
       <Filter>Quelldateien\MapObject</Filter>
     </ClCompile>
   </ItemGroup>

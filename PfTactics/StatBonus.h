@@ -1,7 +1,7 @@
 #ifndef STATBONUS_H
 #define STATBONUS_H
 
-enum BonusEffect { unspecified, strBonus, konBonus, dexBonus, intBonus, wisBonus, chaBonus, AC, attack, fort, will, ref, skills, damage, speed };
+enum BonusEffect { unspecified, strBonus, konBonus, dexBonus, intBonus, wisBonus, chaBonus, acBonus, attackBonus, fortBonus, willBonus, refBonus, skillBonus, damageBonus, speedBonus };
 enum BonusType { typeless, alchemical, armor, circumstance, competence, deflection, dodge, enhancement, inherent, insight, luck, morale, naturalArmor, profane, racial, resistance, sacred, shield, size, trait };
 //stacking types: circumstance (if other source), 
 

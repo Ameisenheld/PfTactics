@@ -19,18 +19,22 @@ enum Alignment{ LG, NG, CG, LN, NN, CN, LE, NE, CE };
 // %3==0 is chaotic
 // %3==1 is lawfull
 
-class Unit : Prop{
+class Unit : public Prop{
 public:
-	Ability abbility;
+	Unit();
+	Unit(Ability*);
+	~Unit();
+	Ability* ability;
 	short BAB;
 	short ini;
 	short speed;
 	Alignment alignment;
-	Skills skills;
+	Skills* skills;
 	std::vector<Feat> feats;
 	std::vector<Weapon> weapons;
 	std::vector<Equipment> equipment;
 	Size size;
+	void updateStats();
 };
 
 
