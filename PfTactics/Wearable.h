@@ -9,7 +9,7 @@ public:
 	bool equiped;
 	std::string name;
 	std::string description;
-	StatBonus bonus;
+	std::vector<StatBonus> boni;
 	long ID;
 };
 

@@ -5,8 +5,8 @@ MapTile::MapTile(){
 }
 
 MapTile::MapTile(GraphicView* gView)
-	: view(gView){
-	MapTile();
+	: MapTile(){
+	view = gView;
 }
 
 MapTile::~MapTile(){

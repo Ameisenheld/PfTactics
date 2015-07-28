@@ -1,4 +1,5 @@
 #include "Skills.h"
+#include <iostream>
 
 Skills::Skills(Ability* ability){
 	acrobatics = new Skill(ability->dexMod, false);

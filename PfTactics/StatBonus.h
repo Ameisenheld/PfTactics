@@ -9,7 +9,7 @@ enum BonusType { typeless, alchemical, armor, circumstance, competence, deflecti
 class StatBonus{
 public:
 	StatBonus(long*);
-	StatBonus(long*, BonusEffect, BonusType, short);
+	StatBonus(long*, BonusEffect, BonusType, short, long);
 	BonusEffect affectedStat;
 	BonusType bonusType;
 	short bonusValue;

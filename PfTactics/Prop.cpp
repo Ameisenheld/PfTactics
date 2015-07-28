@@ -25,7 +25,7 @@ void Prop::updateStats(){		//TODO make this work without 10 years runtime
 		case refBonus:
 		case skillBonus:
 		case damageBonus:
-		case speedBonus:
+		case speedBonus: break;
 		}
 	}
 }

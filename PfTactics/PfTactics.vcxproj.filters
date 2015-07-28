@@ -31,6 +31,9 @@
     <Filter Include="Headerdateien\Item">
       <UniqueIdentifier>{35e8b9ca-603b-48c1-97d6-8f1d9c22dd26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Headerdateien\Classes">
+      <UniqueIdentifier>{0c38596d-fda6-4868-ad7e-e31cb1e5d51f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Map.h">
@@ -66,9 +69,6 @@
     <ClInclude Include="Unit.h">
       <Filter>Headerdateien\MapObject</Filter>
     </ClInclude>
-    <ClInclude Include="Class.h">
-      <Filter>Headerdateien\Property</Filter>
-    </ClInclude>
     <ClInclude Include="Feat.h">
       <Filter>Headerdateien\Property</Filter>
     </ClInclude>
@@ -91,6 +91,18 @@
       <Filter>Headerdateien\MapObject</Filter>
     </ClInclude>
     <ClInclude Include="GraphicView.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>Headerdateien\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellcasterClass.h">
+      <Filter>Headerdateien\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpontaneousCaster.h">
+      <Filter>Headerdateien\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
       <Filter>Headerdateien\Property</Filter>
     </ClInclude>
   </ItemGroup>
@@ -130,6 +142,9 @@
     </ClCompile>
     <ClCompile Include="Monster.cpp">
       <Filter>Quelldateien\MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StatBonus.cpp">
+      <Filter>Quelldateien\Property</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

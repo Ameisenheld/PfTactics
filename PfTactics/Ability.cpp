@@ -3,19 +3,19 @@
 Ability::Ability(short st, short ko, short de, short in, short wi, short ch)
 	: strAb(st), konAb(ko), dexAb(de), intAb(in), wisAb(wi), chaAb(ch) {
 
-	st = strAb / 2 - 5;
-	ko = konAb / 2 - 5;
-	de = dexAb / 2 - 5;
-	in = intAb / 2 - 5;
-	wi = wisAb / 2 - 5;
-	ch = chaAb / 2 - 5;
+	this->st = strAb / 2 - 5;
+	this->ko = konAb / 2 - 5;
+	this->de = dexAb / 2 - 5;
+	this->in = intAb / 2 - 5;
+	this->wi = wisAb / 2 - 5;
+	this->ch = chaAb / 2 - 5;
 
-	strMod = &st;
-	konMod = &ko;
-	dexMod = &de;
-	intMod = &in;
-	wisMod = &wi;
-	chaMod = &ch;
+	strMod = &this->st;
+	konMod = &this->ko;
+	dexMod = &this->de;
+	intMod = &this->in;
+	wisMod = &this->wi;
+	chaMod = &this->ch;
 }
 
 void Ability::changeAbility(Attribute atr, short mod){
@@ -36,10 +36,10 @@ void Ability::changeAbility(Attribute atr, short mod){
 }
 
 Ability::~Ability(){
-	//delete strMod;
-	//delete konMod;
-	//delete dexMod;
-	//delete intMod;
-	//delete wisMod;
-	//delete chaMod;
+	delete strMod;
+	delete konMod;
+	delete dexMod;
+	delete intMod;
+	delete wisMod;
+	delete chaMod;
 }

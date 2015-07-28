@@ -16,6 +16,14 @@ void main(int argc, const char* argv[]){
 	Hero* fighter = new Hero(new Ability(18, 12, 16, 7, 11, 13));
 	fighter->updateStats();
 
+	fighter->skills->setClassSkills(Fighter);
+	std::cout << "escape art: " << fighter->skills->escapeArtist->getValue() << std::endl;
+	std::cout << "climb: " << fighter->skills->climb->getValue() << std::endl;
+	fighter->skills->escapeArtist->rank++;
+	fighter->skills->climb->rank++;
+	std::cout << "escape art: " << fighter->skills->escapeArtist->getValue() << std::endl;
+	std::cout << "climb: " << fighter->skills->climb->getValue() << std::endl;
+
 	map.addCreature(1, 1, fighter);
 	map.addCreature(2, 1, fighter);
 	map.printMap();

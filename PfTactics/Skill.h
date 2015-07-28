@@ -15,8 +15,8 @@ public:
 	bool classSkill;
 	short rank;
 	std::string additionalType;
-private:
 	short getValue();
+private:
 	bool trainedOnly;
 	short* abbilityMod;
 

@@ -11,7 +11,7 @@ public:
 	Class(short* classLevel);
 	short* lvl;
 	virtual short skillRanks();
-	virtual short rollLive();
+	virtual short rollLife();
 	virtual short babBonus();
 	virtual short fortBonus();
 	virtual short refBonus();

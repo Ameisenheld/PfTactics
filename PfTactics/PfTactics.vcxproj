@@ -75,6 +75,7 @@
     <ClCompile Include="Prop.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="Skills.cpp" />
+    <ClCompile Include="StatBonus.cpp" />
     <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +94,9 @@
     <ClInclude Include="Sizes.h" />
     <ClInclude Include="Skill.h" />
     <ClInclude Include="Skills.h" />
+    <ClInclude Include="Spell.h" />
+    <ClInclude Include="SpellcasterClass.h" />
+    <ClInclude Include="SpontaneousCaster.h" />
     <ClInclude Include="StatBonus.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="Weapon.h" />

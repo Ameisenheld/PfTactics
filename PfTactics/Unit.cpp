@@ -1,13 +1,15 @@
 #include "Unit.h"
+#include <iostream>
 
-Unit::Unit(){
+Unit::Unit()
+	: Prop(){
 
 }
 
 Unit::Unit(Ability* ab)
-	: ability(ab){
+	: Unit(){
 
-	Unit();
+	ability = ab;
 	skills = new Skills(ability);
 }
 
@@ -36,4 +38,5 @@ void Unit::updateStats(){
 		case speedBonus:	break;
 		}
 	}
+	//std::cout << skills->bluff->classSkill << std::endl;
 }
