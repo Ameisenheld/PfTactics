@@ -1,11 +1,11 @@
 #include "StatBonus.h"
 
-StatBonus::StatBonus(long* id)
+StatBonus::StatBonus(unsigned long* id)
 	: sourceID(id){
 
 }
 
-StatBonus::StatBonus(long* id, BonusEffect stat, BonusType type, short value, long durat)
+StatBonus::StatBonus(unsigned long* id, BonusEffect stat, BonusType type, short value, long durat)
 	: sourceID(id), affectedStat(stat), bonusType(type), bonusValue(value), duration(durat){
 
 }

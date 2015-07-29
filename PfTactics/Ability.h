@@ -1,6 +1,8 @@
 #ifndef ABILITY_H
 #define ABILITY_H
 
+#include "StatBonus.h"
+
 enum Attribute{ STR, KON, DEX, INT, WIS, CHA };
 
 class Ability{
@@ -13,7 +15,8 @@ public:
 	short* intMod;
 	short* wisMod;
 	short* chaMod;
-	void changeAbility(Attribute, short);	//only way to alter the scores
+	void changeAbility(Attribute, short);	//simple way to alter the scores
+	void changeAbility(StatBonus*);			//Bonus-way to alter the scores
 private:
 	unsigned short strAb;	//The real abbility scores
 	unsigned short konAb;

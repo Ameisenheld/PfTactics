@@ -6,10 +6,12 @@
 #include "Class.h"
 #include "Skill.h"
 #include "Ability.h"
+#include "StatBonus.h"
 
 class Skills{
 public:
 	Skills(Ability*);
+	~Skills();
 	Skill* acrobatics;
 	Skill* appraise;
 	Skill* bluff;
@@ -23,16 +25,16 @@ public:
 	Skill* handleAnimal;
 	Skill* heal;
 	Skill* intimidate;
-	Skill* knowledgeArcana;
-	Skill* knowledgeDungeoneering;
-	Skill* knowledgeEngineering;
-	Skill* knowledgeGeography;
-	Skill* knowledgeHistory;
-	Skill* knowledgeLocal;
-	Skill* knowledgeNature;
-	Skill* knowledgeNobility;
-	Skill* knowledgePlanes;
-	Skill* knowledgeReligion;
+	Skill* knowArcana;
+	Skill* knowDungeoneering;
+	Skill* knowEngineering;
+	Skill* knowGeography;
+	Skill* knowHistory;
+	Skill* knowLocal;
+	Skill* knowNature;
+	Skill* knowNobility;
+	Skill* knowPlanes;
+	Skill* knowReligion;
 	Skill* linguistics;
 	Skill* perception;
 	Skill* perform;
@@ -46,6 +48,7 @@ public:
 	Skill* swim;
 	Skill* useMagicDevice;
 	void setClassSkills(ClassName);
+	void setSkillBonus(StatBonus*);
 };
 
 #endif

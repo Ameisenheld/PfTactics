@@ -26,6 +26,8 @@ public:
 	~Unit();
 	Ability* ability;
 	short BAB;
+	short attackBoni;
+	short damageBoni;
 	short ini;
 	short speed;
 	Alignment alignment;

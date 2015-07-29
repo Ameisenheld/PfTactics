@@ -16,18 +16,21 @@ public:
 	short AC;
 	short touchAC;
 	short flatAC;
-	short spellResistance;
+	unsigned short spellResistance;
 	short fortitude;
 	short reflex;
 	short will;
-	int HP;
-	int damage;
-	int nonlethalDamage;
-	short DR;
+	unsigned int HP;
+	unsigned int damage;
+	unsigned int nonlethalDamage;
+	unsigned short DR;
 	std::string name;
-	long ID;
-	std::vector<StatBonus> activeEffects;
+	unsigned long ID;
+	std::vector<std::vector<std::vector<StatBonus*>>> activeEffects;		//BonusEffects | BonusTypes | BonusValue
+	//std::vector<StatBonus> activeEffects;
 	void updateStats();
+	void tickDownEffects();
+	void removeID(long*);
 private:
 	//Prop();		//Don't create this... PLEASE
 };

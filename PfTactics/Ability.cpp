@@ -35,6 +35,24 @@ void Ability::changeAbility(Attribute atr, short mod){
 	}
 }
 
+void Ability::changeAbility(StatBonus* bonus){
+	switch (bonus->affectedStat){
+	case strBonus:
+		strAb += bonus->bonusValue;	st = strAb / 2 - 5; break;
+	case konBonus:
+		konAb += bonus->bonusValue;	ko = konAb / 2 - 5; break;
+	case dexBonus:
+		dexAb += bonus->bonusValue;	de = dexAb / 2 - 5; break;
+	case intBonus:
+		intAb += bonus->bonusValue;	in = intAb / 2 - 5; break;
+	case wisBonus:
+		wisAb += bonus->bonusValue;	wi = wisAb / 2 - 5; break;
+	case chaBonus:
+		chaAb += bonus->bonusValue;	ch = chaAb / 2 - 5; break;
+	default: break;
+	}
+}
+
 Ability::~Ability(){
 	delete strMod;
 	delete konMod;
