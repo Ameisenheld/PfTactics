@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ability.h" />
+    <ClInclude Include="Area.h" />
     <ClInclude Include="Class.h" />
     <ClInclude Include="Dice.h" />
     <ClInclude Include="Equipment.h" />
@@ -89,12 +90,14 @@
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MapTile.h" />
+    <ClInclude Include="MaterialComponent.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Prop.h" />
     <ClInclude Include="Sizes.h" />
     <ClInclude Include="Skill.h" />
     <ClInclude Include="Skills.h" />
     <ClInclude Include="Spell.h" />
+    <ClInclude Include="Spellbook.h" />
     <ClInclude Include="SpellcasterClass.h" />
     <ClInclude Include="SpontaneousCaster.h" />
     <ClInclude Include="StatBonus.h" />

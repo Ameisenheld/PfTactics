@@ -39,9 +39,6 @@
     <ClInclude Include="Map.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Dice.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="Equipment.h">
       <Filter>Headerdateien\Item</Filter>
     </ClInclude>
@@ -105,15 +102,24 @@
     <ClInclude Include="Spell.h">
       <Filter>Headerdateien\Property</Filter>
     </ClInclude>
+    <ClInclude Include="Spellbook.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialComponent.h">
+      <Filter>Headerdateien\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>Headerdateien\Property</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Map.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Dice.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Skill.cpp">
@@ -144,6 +150,9 @@
       <Filter>Quelldateien\MapObject</Filter>
     </ClCompile>
     <ClCompile Include="StatBonus.cpp">
+      <Filter>Quelldateien\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="Dice.cpp">
       <Filter>Quelldateien\Property</Filter>
     </ClCompile>
   </ItemGroup>

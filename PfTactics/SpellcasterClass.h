@@ -2,12 +2,13 @@
 #define SPELLCASTERCLASS_H
 
 #include "Class.h"
-#include "Spell.h"
+#include "Spellbook.h"
 #include <vector>
 
 class SpellcasterClass : public Class{
 public:
 	std::vector<std::vector<Spell>> SpellsKnown;	//A list for every SpellLevel
+	Spellbook SpellBook;
 	virtual bool isSpontaneous();
 };
 
