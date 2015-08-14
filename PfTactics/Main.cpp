@@ -28,5 +28,5 @@ void main(int argc, const char* argv[]){
 	map.addCreature(2, 1, fighter);
 	map.printMap();
 
-	system("pause");		//Only works on windows
+	getchar();		//Only works on windows
 }

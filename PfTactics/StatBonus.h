@@ -4,7 +4,7 @@
 enum SkillID { Acrobatics, Appraise, Bluff, Climb, Craft, Diplomacy, DisableDevice, Disguise, EscapeArtist, Fly, HandleAnimal, Heal, Intimidate, KnowArcana, KnowDungeoneering, KnowEngineering, KnowGeography, KnowHistory, KnowLocal, KnowNature, KnowNobility, KnowPlanes, KnowReligion, Linguistics, Perception, Perform, Profession, Ride, SenseMotive, SleightOfHand, Spellcraft, Stealth, Survival, Swim, UseMagicDevice };
 enum BonusEffect { unspecified, strBonus, konBonus, dexBonus, intBonus, wisBonus, chaBonus, attackBonus, skillBonus, damageBonus, speedBonus, acBonus, fortBonus, willBonus, refBonus, BONUS_EFFECT_LENGTH = refBonus, BONUS_EFFECT_PROP = acBonus };
 enum BonusType { typeless, alchemical, armor, circumstance, competence, deflection, dodge, enhancement, inherent, insight, luck, morale, naturalArmor, profane, racial, resistance, sacred, shield, size, trait, BONUS_TYPE_LENGTH = trait };
-enum actionTime { free, immediate, swift, move, standard, fullRound, twoRound, ACTIONTIME_TYPE_LENGTH = twoRound };
+enum actionTime { freeAction, immediateAction, swiftAction, move, standardAction, fullRoundAction, twoRoundAction, ACTIONTIME_TYPE_LENGTH = twoRoundAction };
 enum SavingThrow { fortSave, willSave, refSave };
 //stacking types: circumstance (if other source), 
 
